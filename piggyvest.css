@@ -76,8 +76,9 @@ body {
   height: 100vh;
   margin: 10px 20px;
 }
-.applebtn, .googlebtn{
-    background-color:#122231;
+.applebtn,
+.googlebtn {
+  background-color: #122231;
 }
 
 .applebtn:hover,
@@ -231,7 +232,7 @@ body {
 .sec3 {
   background-color: #f2f7f8;
 }
-.head-save{
+.head-save {
   margin-bottom: 60px;
 }
 .head-save > h1 {
@@ -262,17 +263,32 @@ body {
   border: 0.5px solid white;
   overflow: hidden;
 }
-.cardA > h3, .cardB h3, .cardC h3, .cardD h3, .cardE h3, .cardF h3 {
+.cardA > h3,
+.cardB h3,
+.cardC h3,
+.cardD h3,
+.cardE h3,
+.cardF h3 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.cardA > p, .cardB p, .cardC p, .cardD p, .cardE p, .cardF p {
+.cardA > p,
+.cardB p,
+.cardC p,
+.cardD p,
+.cardE p,
+.cardF p {
   /* font-size: 19px; */
   width: 80%;
   color: #505363;
 }
-.cardA > a,.cardB a,.cardC a, .cardD a, .cardE a,.cardF a {
+.cardA > a,
+.cardB a,
+.cardC a,
+.cardD a,
+.cardE a,
+.cardF a {
   text-decoration: none;
 }
 .cardA > img,
@@ -319,7 +335,7 @@ body {
 .cardE:hover p,
 .cardF:hover h3,
 .cardF:hover p {
-  color: white; 
+  color: white;
 }
 .cardB {
   width: 485px;
@@ -331,8 +347,6 @@ body {
   border: 0.5px solid white;
   overflow: hidden;
 }
-
-
 
 .cardB:hover {
   transition-property: background-color;
@@ -352,8 +366,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .cardC:hover {
   transition-property: background-color;
   background-color: #39c277;
@@ -371,9 +383,6 @@ body {
   border: 0.5px solid white;
   overflow: hidden;
 }
-
-
-
 
 .cardD:hover {
   transition-property: background-color;
@@ -393,9 +402,6 @@ body {
   overflow: hidden;
 }
 
-
-
-
 .cardE:hover {
   transition-property: background-color;
   background-color: #0c1825;
@@ -413,7 +419,6 @@ body {
   padding: 40px 40px 0px;
   overflow: hidden;
 }
-
 
 .cardF:hover {
   transition-property: background-color;
@@ -517,7 +522,7 @@ iframe {
 }
 .footer {
   display: flex;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .img-container {
   flex-direction: column;
@@ -537,7 +542,12 @@ iframe {
   gap: 10px;
   margin-left: 60px;
   padding: 20px;
+}
+.product-links a,
+.company-links a,
+.legal-links a {
   text-decoration: none;
+  color: #999aa4;
 }
 .logos {
   height: 40px;
